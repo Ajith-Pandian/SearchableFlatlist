@@ -2,6 +2,7 @@
 
 Wrapper component over Flatlist component to provide search functionality.
 
+[![npm](https://img.shields.io/npm/v/searchable-flatlist.svg?style=plastic)](https://www.npmjs.com/package/searchable-flatlist) [![npm](https://img.shields.io/npm/dm/searchable-flatlist.svg?style=plastic)](https://npmjs.org/package/searchable-flatlist) [![npm](https://img.shields.io/npm/dt/searchable-flatlist.svg?style=plastic)](https://npmjs.org/package/searchable-flatlist)
 
 ## Preview
 
@@ -75,7 +76,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-| Props            | Description                           | Value                                                                         | isRequired               |
+| Props            | Description                           | Value                                                                         | Required               |
 | ---------------- | ------------------------------------- | ----------------------------------------------------------------------------- | ------------------------ |
 | `data`           | data for flatlist                     | `object array`                                                                | :heavy_check_mark:       |
 | `searchProperty` | property of the object to be searched | `string`                                                                      | :heavy_check_mark:       |

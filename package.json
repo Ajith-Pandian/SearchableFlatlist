@@ -1,7 +1,6 @@
 {
-  "name": "Searcher",
-  "version": "0.0.1",
-  "private": true,
+  "name": "searchable-flatlist",
+  "version": "0.0.2",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
@@ -19,5 +18,26 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "Wrapper component over Flatlist component to provide search functionality.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajith-Pandian/SearchableFlatlist.git"
+  },
+  "keywords": [
+    "searchable",
+    "filterable",
+    "flatlist",
+    "list",
+    "filter",
+    "reactnative",
+    "react"
+  ],
+  "author": "Ajith Pandian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ajith-Pandian/SearchableFlatlist/issues"
+  },
+  "homepage": "https://github.com/Ajith-Pandian/SearchableFlatlist#readme"
 }

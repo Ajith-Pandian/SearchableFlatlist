@@ -82,3 +82,6 @@ const styles = StyleSheet.create({
 | `searchProperty` | property of the object to be searched | `string`                                                                      | :heavy_check_mark:       |
 | `searchTerm`     | searching term                        | `string`                                                                      | :heavy_check_mark:       |
 | `type`           | type of search                        | one of the following `SearchableFlatlist.WORDS` `SearchableFlatlist.INCLUDES` | :heavy_multiplication_x: |
+
+`SearchableFlatlist.WORDS` - search words
+`SearchableFlatlist.INCLUDES` - search everything (default)

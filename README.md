@@ -84,4 +84,5 @@ const styles = StyleSheet.create({
 | `type`           | type of search                        | one of the following `SearchableFlatlist.WORDS` `SearchableFlatlist.INCLUDES` | :heavy_multiplication_x: |
 
 `SearchableFlatlist.WORDS` - search words
+
 `SearchableFlatlist.INCLUDES` - search everything (default)
